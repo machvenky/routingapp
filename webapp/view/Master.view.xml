@@ -17,6 +17,9 @@
 								<Column>
 									<Text text="{i18n>Price}"></Text>
 								</Column>
+									<Column>
+									<Text text="Category"></Text>
+								</Column>
 							</columns>
 							<items>
 								<ColumnListItem type="Navigation" press="onRowSelected">
@@ -24,6 +27,7 @@
 										<Text text="{ProductID}"/>
 										<Text text="{Name}"/>
 										<Text text="{Price}"/>
+										<Text text="{Category}"/>
 									</cells>
 								</ColumnListItem>
 							</items>
