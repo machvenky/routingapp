@@ -4,6 +4,7 @@
 			<pages>
 				<Page id="page" title="{i18n>title}">
 					<content>
+						<Button text="Git Demo"/>
 						<Table id="idProductsTable" items="{path:'/ProductSet'}" growing="true">
 							<columns>
 								<Column>
