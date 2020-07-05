@@ -1,0 +1,34 @@
+<mvc:View controllerName="ui5.nav.routingapp.controller.Master" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<Table id="idProductsTable" items="{path:'/ProductSet'}" growing="true">
+							<columns>
+								<Column>
+									<Text text="{i18n>productID}"></Text>
+								</Column>
+								<Column>
+									<Text text="{i18n>Name}"></Text>
+								</Column>
+								<Column>
+									<Text text="{i18n>Price}"></Text>
+								</Column>
+							</columns>
+							<items>
+								<ColumnListItem type="Navigation" press="onRowSelected">
+									<cells>
+										<Text text="{ProductID}"/>
+										<Text text="{Name}"/>
+										<Text text="{Price}"/>
+									</cells>
+								</ColumnListItem>
+							</items>
+						</Table>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>

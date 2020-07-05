@@ -1,0 +1,18 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="ui5.nav.routingapp.controller.Detail"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="{ProductID}: {i18n>Details}"
+				showNavButton="true"
+				navButtonPress="onNavBack">
+				<content>
+					<ObjectHeader id="objectHeader" title="{ProductID}">
+						<ObjectAttribute text="{Name}"></ObjectAttribute>
+						<ObjectAttribute text="{Category}"></ObjectAttribute>
+					</ObjectHeader>
+					
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
