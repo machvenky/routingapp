@@ -9,6 +9,7 @@
 					<ObjectHeader id="objectHeader" title="{ProductID}">
 						<ObjectAttribute text="{Name}"></ObjectAttribute>
 						<ObjectAttribute text="{Category}"></ObjectAttribute>
+						<ObjectAttribute text="{ProductID}"></ObjectAttribute>
 					</ObjectHeader>
 					
 				</content>
