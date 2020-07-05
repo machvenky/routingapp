@@ -10,6 +10,7 @@
 						<ObjectAttribute text="{Name}"></ObjectAttribute>
 						<ObjectAttribute text="{Category}"></ObjectAttribute>
 						<ObjectAttribute text="{ProductID}"></ObjectAttribute>
+						<ObjectAttribute text="{Price}"></ObjectAttribute>
 					</ObjectHeader>
 					
 				</content>
